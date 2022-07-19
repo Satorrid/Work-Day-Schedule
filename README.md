@@ -15,3 +15,6 @@ To deploy this project run
 ```
 
 https://satorrid.github.io/Work-Day-Schedule/
+
+![work-day-schedule](https://user-images.githubusercontent.com/106789746/179867421-c1e2de62-cd15-4ebd-b60a-2d47e7198977.png)
+
