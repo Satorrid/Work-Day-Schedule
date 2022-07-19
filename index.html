@@ -23,93 +23,93 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <body onload=display_ct();>
+  <body>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
-      <p id="currentDay" class="lead"><span id="ct"></span></p>
+      <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
       <table class="table">
-        <tr id="9am" class="hour">
+        <tr time-block="9" class="hour">
           <td>9AM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text1" class="form-control form-control-md col-12" type="text"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button id="btn1" class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
-        <tr id="10am" class="hour">
+        <tr time-block="10" class="hour">
           <td>10AM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text2" class="form-control form-control-md col-12" type="text"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button id="btn2" class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
-        <tr id="11am" class="hour">
+        <tr time-block="11" class="hour">
           <td>11AM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text3" class="form-control form-control-md col-12" type="text"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
-        <tr id="12pm" class="hour">
+        <tr time-block="12" class="hour">
           <td>12PM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text4" class="form-control form-control-md col-12" type="text"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
-        <tr id="1pm" class="hour">
+        <tr time-block="13" class="hour">
           <td>1PM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text5" class="form-control form-control-md col-12" type="text"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
-        <tr id="2pm" class="hour">
+        <tr time-block="14"class="hour">
           <td>2PM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text6" class="form-control form-control-md col-12" type="text"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
-        <tr id="3pm" class="hour">
+        <tr time-block="15"class="hour">
           <td>3PM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text7" class="form-control form-control-md col-12" type="text"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
-        <tr id="4pm" class="hour">
+        <tr time-block="16"class="hour">
           <td>4PM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text8" class="form-control form-control-md col-12" type="text"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
-        <tr id="5pm" class="hour">
+        <tr time-block="17"class="hour">
           <td>5PM</td>
           <td>
-           <input class="form-control form-control-md col-12" type="text"/>
+           <input id="user-text9" class="form-control form-control-md col-12" type="text" maxlength="50"/>
           </td> 
           <td>
-            <button class="btn btn-outline-success" type="submit">Save</button>
+            <button class="btn btn-outline-dark bg-light" type="submit">Save</button>
           </td>
         </tr>
 
